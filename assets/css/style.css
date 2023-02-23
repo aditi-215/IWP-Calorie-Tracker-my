@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -177,7 +163,20 @@ body.nav-active { overflow: hidden; }
 
 .section { padding-block: var(--section-padding); }
 
-.w-100 { width: 100%; }
+.w-100 { 
+display: inline-block;
+/* margin-left: 10rem; */
+width: 60rem;
+height: 50rem;
+padding: 2rem;
+}
+.w-100A { 
+  display: inline-block;
+  margin-left: 10rem;
+  width: 60rem;
+  height: 50rem;
+  padding: 2rem;
+  }
 
 .h1,
 .h2,
